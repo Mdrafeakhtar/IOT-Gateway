@@ -1,0 +1,18 @@
+# Arduino / build artifacts
+build/
+*.elf
+*.hex
+*.bin
+*.map
+
+# macOS
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+
+# Local/private configuration
+.env
+secrets.h
+config_private.h
